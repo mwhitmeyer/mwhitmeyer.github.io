@@ -1,9 +1,9 @@
-title:              Clean Blog
+title:              Michael Whitmeyer
 email:              mwhitmeyer@berkeley.edu
-description:        A Blog Theme by Start Bootstrap
+description:        Hello World
 author:             Start Bootstrap
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+baseurl:            ""
+url:                "https://mwhitmeyer.github.io"
 
 # Social Profiles
 twitter_username:   mdwhitmeyer
