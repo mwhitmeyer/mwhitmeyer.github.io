@@ -195,9 +195,16 @@ figure {
   margin: 0 0 1rem;
 }
 
-img {
+/* img {
   vertical-align: middle;
   border-style: none;
+} */
+
+img {
+  width: 100%;
+  height: auto;
+  /* Magic! */
+  max-width: 50vw;
 }
 
 svg {
