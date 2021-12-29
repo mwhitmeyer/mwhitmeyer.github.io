@@ -206,12 +206,17 @@ figure {
   max-width: 50vw;
 } */
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
-  width: auto\9; /* ie8 */
-}
+  width: auto\9; 
+} */
 
+img {
+  height: 1em;
+  width: auto;
+  display: inline-block;
+}
 
 svg {
   overflow: hidden;
