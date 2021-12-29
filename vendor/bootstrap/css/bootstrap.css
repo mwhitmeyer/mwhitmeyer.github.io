@@ -200,12 +200,18 @@ figure {
   border-style: none;
 } */
 
-img {
+/* img {
   width: 100%;
   height: auto;
-  /* Magic! */
   max-width: 50vw;
+} */
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }
+
 
 svg {
   overflow: hidden;
