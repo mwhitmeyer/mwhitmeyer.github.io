@@ -55,9 +55,6 @@
             <a class="nav-link" href="#research">Research</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#old-projects">Projects</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#teaching">Teaching</a>
           </li>
           <li class="nav-item">
@@ -84,7 +81,7 @@
         <h2 class="mt-5" id="about">About Me</h2>
         <ul class="list-unstyled">
 
-          <img class="about-photo" src="images/rappel.jpeg" alt="Michael" width="33%" style="float:right" padding="10px"/>
+          <img src="images/rappel.jpeg" alt="Michael" width="33%" style="float:right" padding="10px"/>
 
           <li>I am a sixth and final year PhD student at the University of Washington, 
             advised by <a href="https://homes.cs.washington.edu/~beame/beame.html">Paul Beame</a>, and prior to that, I completed my MS at UC Berkeley working with <a href="http://www.avishaytal.org">Avishay Tal</a>. <b>I am currently on the job market for positions that value both teaching and research.</b>
@@ -229,7 +226,7 @@
                 <i>CSE 431:</i> <b>Intro to Theory of Computation.</b> (Spring 2022, Spring 2024, Winter 2025)
                 <ul class="list"; display: inline-block;>
                 <li>I scribed notes for two guest lectures I gave:
-                <a href="pdfs/EE126_Notes.pdf">NP-completeness and Savitch's theorem notes</a>. </li>
+                <a href="pdfs/reductions-savitch.pdf">NP-completeness and Savitch's theorem notes</a>. </li>
                 </ul>
               </li>
 
@@ -289,16 +286,6 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script>
-    function fitAboutPhoto() {
-      var aboutSection = document.getElementById('about').parentElement;
-      var aboutPhoto = aboutSection.querySelector('.about-photo');
-      aboutPhoto.style.maxHeight = aboutSection.offsetHeight + 'px';
-    }
-
-    window.addEventListener('load', fitAboutPhoto);
-    window.addEventListener('resize', fitAboutPhoto);
-  </script>
 
 </body>
 
