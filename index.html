@@ -81,10 +81,10 @@
   <div class="container">
     <div class="row">
       <div class="column">
-        <img src="images/rappel.jpeg" alt="Michael" width="33%" style="float:right" padding="10px"/>
-
         <h2 class="mt-5" id="about">About Me</h2>
         <ul class="list-unstyled">
+
+          <img class="about-photo" src="images/rappel.jpeg" alt="Michael" width="33%" style="float:right" padding="10px"/>
 
           <li>I am a sixth and final year PhD student at the University of Washington, 
             advised by <a href="https://homes.cs.washington.edu/~beame/beame.html">Paul Beame</a>, and prior to that, I completed my MS at UC Berkeley working with <a href="http://www.avishaytal.org">Avishay Tal</a>. <b>I am currently on the job market for positions that value both teaching and research.</b>
@@ -289,6 +289,16 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function fitAboutPhoto() {
+      var aboutSection = document.getElementById('about').parentElement;
+      var aboutPhoto = aboutSection.querySelector('.about-photo');
+      aboutPhoto.style.maxHeight = aboutSection.offsetHeight + 'px';
+    }
+
+    window.addEventListener('load', fitAboutPhoto);
+    window.addEventListener('resize', fitAboutPhoto);
+  </script>
 
 </body>
 
